@@ -1,0 +1,25 @@
+{
+  "label": "WS Caller Task",
+  "id": "com.mycompany.WsCaller",
+  "appliesTo": [
+    "bpmn:Task"
+  ],
+  "properties": [
+    {
+      "label": "Web Service URL",
+      "description": "Specify the url of the web service to talk to",
+      "type": "String",
+      "binding": {
+        "type": "camunda:property",
+        "name": "webServiceUrl"
+      },
+      "constraints": {
+        "notEmpty": true,
+        "pattern": {
+          "value": "https://.*",
+          "message": "Must be https URL"
+        }
+      }
+    }
+  ]
+}
