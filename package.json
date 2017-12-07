@@ -1,5 +1,5 @@
 {
-  "name": "bpmn-js-properties-panel",
+  "name": "runbpm-js-properties-panel",
   "version": "0.6.2",
   "description": "A simple properties panel for bpmn-js",
   "scripts": {
@@ -72,8 +72,8 @@
     "url": "https://github.com/bpmn-io/bpmn-js-properties-panel/issues"
   },
   "homepage": "https://github.com/bpmn-io/bpmn-js-properties-panel#readme",
-  "_id": "bpmn-js-properties-panel@0.6.2",
+  "_id": "runbpm-js-properties-panel@0.6.2",
   "_shasum": "4ae34ab2452553ec4728165e4fd5f85d3ebf96d0",
-  "_from": "liguo-zhang/bpmn-js-properties-panel",
-  "_resolved": "git://github.com/liguo-zhang/bpmn-js-properties-panel.git#4468f7d133878a7b167083ed6195ae8a2cc7ff83"
+  "_from": "liguo-zhang/runbpm-js-properties-panel",
+  "_resolved": "git://github.com/liguo-zhang/runbpm-js-properties-panel.git#4468f7d133878a7b167083ed6195ae8a2cc7ff83"
 }
