@@ -21,7 +21,7 @@
   "license": "MIT",
   "devDependencies": {
     "runbpm-bpmn-moddle": "file:../runbpm-bpmn-moddle",
-    "bpmn-js": "^0.14.0",
+    "bpmn-js": "file:../bpmn-js",
     "bpmn-moddle": "^0.11.0",
     "browserify": "^13.0.0",
     "camunda-bpmn-moddle": "^0.5.0",
@@ -62,7 +62,7 @@
     "selection-update": "^0.1.2"
   },
   "peerDependencies": {
-    "bpmn-js": ">=0.12 <0.15",
+    "bpmn-js": "file:../bpmn-js",
     "diagram-js": ">=0.12 <0.15"
   },
   "gitHead": "4468f7d133878a7b167083ed6195ae8a2cc7ff83",
